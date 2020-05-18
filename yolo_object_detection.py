@@ -53,7 +53,7 @@ for img_path in images_path:
         if i in indexes:
             x, y, w, h = boxes[i]
             label = str(classes[class_ids[i]])
-            #color = colors[class_ids[i]]
+            color = colors[class_ids[i]]
             color = (0,0,255)
             cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
             cv2.putText(img, label, (x, y + 30), font, 3, color, 2)
