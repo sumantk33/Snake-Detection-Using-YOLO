@@ -6,7 +6,7 @@ import random
 net = cv2.dnn.readNet("yolov3_training_last (1).weights", "yolov3_testing.cfg")
 
 classes = ["snake"]
-images_path = glob.glob(r"D:\Projects\Mini Project\Testing_Images\*.jpg")
+images_path = glob.glob(r"Testing_Images\*.jpg")
 
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
