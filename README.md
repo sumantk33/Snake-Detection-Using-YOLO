@@ -1,4 +1,4 @@
-# Snake_Detection_Using_YOLO
+# Snake Detection using YOLO
 
 Link for YouTube video of the code :- https://www.youtube.com/watch?v=_FNfRtXEbr4&feature=youtu.be
 
