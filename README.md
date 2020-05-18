@@ -6,4 +6,4 @@ Link for google drive consisting of images and weights file :- https://drive.goo
 
 Guidelines are provided in the YouTube video for the implementation of code. It needs to be done in Google Colab or Kaggle. Training of the model is already done once. But the model needs to be trained again for better efficiency.
 
-Follow the steps in the video to execute the code on your device.
+Create a folder named "Testing_Image" in the working directory. Store the images in the testing folder on Google Drive to this folder. Follow the steps in the video to execute the code on your device. 
