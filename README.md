@@ -6,6 +6,6 @@ The weights file can be downloaded from the google drive link mentioned above. P
 
 For image detection, the images to be tested must be placed in the "Images" folder. The extension of the images must be ".jpg". The code is written to match the format of the directory. No modification is required.
 
-For video detection, if you want to detect in your custon video, then place it in the directory and rename it as "clip.mp4".
+For video detection, if you want to detect in your custom video, then place it in the directory and rename it as "clip.mp4".
 
 To change the alarm sound, place your desired sound in the directory and rename it as "buzzer.mp3".  
