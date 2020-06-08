@@ -1,9 +1,11 @@
 # Snake Detection using YOLO
 
-Link for YouTube video of the code :- https://www.youtube.com/watch?v=_FNfRtXEbr4&feature=youtu.be
-
 Link for google drive consisting of images and weights file :- https://drive.google.com/drive/u/1/folders/1M_X7Q3BV3Df6wUGTcwSz-mPe41jPqTNS
 
-Guidelines are provided in the YouTube video for the implementation of code. It needs to be done in Google Colab or Kaggle. Training of the model is already done once. But the model needs to be trained again for better efficiency.
+The weights file can be downloaded from the google drive link mentioned above. Place the weights file inside the directory of the desired detection mode. 
 
-Create a folder named "Testing_Image" in the working directory. Store the images in the testing folder on Google Drive to this folder. Follow the steps in the video to execute the code on your device. 
+For image detection, the images to be tested must be placed in the "Images" folder. The extension of the images must be ".jpg". The code is written to match the format of the directory. No modification is required.
+
+For video detection, if you want to detect in your custon video, then place it in the directory and rename it as "clip.mp4".
+
+To change the alarm sound, place your desired sound in the directory and rename it as "buzzer.mp3".  
