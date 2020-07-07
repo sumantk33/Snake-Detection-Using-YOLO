@@ -1,6 +1,6 @@
 # Snake Detection using YOLO
 
-Link for google drive consisting of images and weights file :- https://drive.google.com/drive/u/1/folders/1M_X7Q3BV3Df6wUGTcwSz-mPe41jPqTNS
+Link for google drive consisting of the weights file :- https://drive.google.com/drive/folders/1klfKAdbWAxFlKPy2lmlSApXNJgMZ3ZCg?usp=sharing
 
 The weights file can be downloaded from the google drive link mentioned above. Place the weights file inside the directory of the desired detection mode. 
 
