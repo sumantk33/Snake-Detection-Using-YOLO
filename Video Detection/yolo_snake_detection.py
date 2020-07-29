@@ -63,14 +63,14 @@ def detect_snake(cap):
                 detected = 1
                 
         elapsed_time = time.time() - start
-        fps = elapsed_time/frame_id
+        fps = frame_id/elapsed_time
         frame = cv2.resize(frame, (500,300))
         cv2.putText(frame, "FPS: " + str(round(fps, 2)), (10,30), font, 2, (0, 255, 0), 1)
         cv2.imshow("Image", frame)
         if detected:
             alarm.play_alarm()
         key = cv2.waitKey(1)
-        if key == 27:
+        if key == ord('q'):
             break
 
     cap.release()
