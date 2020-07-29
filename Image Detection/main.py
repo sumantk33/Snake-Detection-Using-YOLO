@@ -12,7 +12,7 @@ images_path = glob.glob(r"Images\*.jpg")
 
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
-colors = np.random.uniform(0, 255, size=(len(classes), 3))
+
 
 # loop through all the images
 for img_path in images_path:
@@ -39,6 +39,7 @@ for img_path in images_path:
             confidence = scores[class_id]
             if confidence > 0.3:
                 # Object detected
+                
                 center_x = int(detection[0] * width)
                 center_y = int(detection[1] * height)
                 w = int(detection[2] * width)
@@ -53,6 +54,7 @@ for img_path in images_path:
                 class_ids.append(class_id)
 
     indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+    
     font = cv2.FONT_HERSHEY_PLAIN
     for i in range(len(boxes)):
         if i in indexes:
